@@ -1,0 +1,52 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bg-image{
+    background-image: url(2dbg.png);
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 8rem;
+    transition: 2s;
+
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.secondh{
+    padding-top: 20%;
+    display: flex;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+}

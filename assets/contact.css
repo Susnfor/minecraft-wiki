@@ -1,0 +1,81 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bg-image{
+    background-image: url(2dbg.png);
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    height: 150vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 8rem;
+    transition: 2s;
+
+}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.secondh{
+    padding-top: 1%;
+    display: flex;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f22e;
+    padding: 20px;
+    width: 60vh;
+  }
